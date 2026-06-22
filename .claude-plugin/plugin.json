@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "json-lsp",
+  "version": "1.0.0",
+  "description": "JSON/JSONC language server (vscode-json-languageserver) for code intelligence",
+  "author": {
+    "name": "Taehun Jung",
+    "email": "taehun@kookmin.ac.kr"
+  },
+  "lspServers": {
+    "json": {
+      "command": "vscode-json-languageserver",
+      "args": ["--stdio"],
+      "extensionToLanguage": {
+        ".json": "json",
+        ".jsonc": "jsonc"
+      }
+    }
+  }
+}
