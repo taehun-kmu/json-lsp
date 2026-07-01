@@ -20,16 +20,16 @@ JSON and JSONC language server (vscode-json-languageserver) for Claude Code, pro
 bun add -g vscode-json-languageserver
 ```
 
-### Via npm
-
-```bash
-npm install -g vscode-json-languageserver
-```
-
 ### Via pnpm
 
 ```bash
 pnpm add -g vscode-json-languageserver
+```
+
+### Via npm
+
+```bash
+npm install -g vscode-json-languageserver
 ```
 
 Ensure `vscode-json-languageserver` is on your `PATH` (verify with `command -v vscode-json-languageserver`) so Claude Code can launch it.
