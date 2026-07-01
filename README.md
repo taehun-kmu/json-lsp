@@ -1,6 +1,6 @@
 # json-lsp
 
-JSON and JSONC language server ([vscode-json-languageserver](https://www.npmjs.com/package/vscode-json-languageserver)) for Claude Code, providing code intelligence, diagnostics, and completion.
+JSON/JSONC language server ([vscode-json-languageserver](https://www.npmjs.com/package/vscode-json-languageserver)) for Claude Code, providing code intelligence, diagnostics, and completion.
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![JSON](https://img.shields.io/badge/JSON-008080?logo=json&logoColor=white)](https://www.json.org/)
