@@ -32,7 +32,8 @@ pnpm add -g vscode-json-languageserver
 npm install -g vscode-json-languageserver
 ```
 
-Ensure [`vscode-json-languageserver`](https://www.npmjs.com/package/vscode-json-languageserver) is on your `PATH` (verify with `command -v vscode-json-languageserver`) so Claude Code can launch it.
+- Ensure [`vscode-json-languageserver`](https://www.npmjs.com/package/vscode-json-languageserver) is on your `PATH` so Claude Code can launch it.
+- Verify with `command -v vscode-json-languageserver`.
 
 ## More Information
 
